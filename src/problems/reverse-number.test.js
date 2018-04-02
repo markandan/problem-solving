@@ -1,6 +1,6 @@
 import reverseNumber from "./reverse-number";
 
-describe.only("reverse-number", () => {
+describe("reverse-number", () => {
   test("should return '' if the value is ''/undefined/non number value", () => {
     expect(reverseNumber(undefined)).toEqual('');
     expect(reverseNumber("")).toEqual('');
