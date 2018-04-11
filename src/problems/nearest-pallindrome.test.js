@@ -33,6 +33,6 @@ describe("nearest-pallindrome", () => {
     expect(nearestPallindrome(911)).toEqual(909);
     expect(nearestPallindrome(109)).toEqual(111);
     expect(nearestPallindrome(102)).toEqual(101);
-    expect(nearestPallindrome(101)).toEqual(101);
+    expect(nearestPallindrome(101)).toEqual(99);
   });
 });

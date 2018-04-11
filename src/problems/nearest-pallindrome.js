@@ -9,6 +9,9 @@ export default function nearestPallindrome(inputValue) {
   // if the value is <10  or 10 multiples then return value - 1
   if ((inputValue < 10) || (inputValue % 10 === 0)) { return (inputValue - 1); }
 
+  // if the value is inputValue is 101, 1001, 10001, etc.. return value - 2
+  if ((inputValue % 100 === 1)) { return (inputValue - 2); }
+
   const inputValueStr = inputValue.toString();
   const lengthInput = inputValueStr.length;
 

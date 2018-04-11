@@ -9,4 +9,3 @@ export default function biggestNumberFromArray(inputArray) {
   const sortedArray = inputArray.sort((a, b) => compareHelper(a, b)).reverse();
   return sortedArray.join('');
 }
-
